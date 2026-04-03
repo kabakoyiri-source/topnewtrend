@@ -149,7 +149,7 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('search-form').addEventListener('submit', e => {
         e.preventDefault();
         const val = document.getElementById('search-input').value.trim();
-        if (val) alert(`Searching for: "${val}"\n\nThis is a demo.`);
+        if (val) window.location.href = '#contact';
     });
 
     // ── Active nav tracking ──
