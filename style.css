@@ -174,7 +174,7 @@ img { display:block; max-width:100%; }
 .footer__col-title { font-size:0.82rem; font-weight:700; text-transform:uppercase; letter-spacing:0.1em; color:var(--w70); margin-bottom:18px; }
 .footer__link { display:block; font-size:0.9rem; color:var(--w50); padding:5px 0; transition:all var(--fast); }
 .footer__link:hover { color:var(--turq); transform:translateX(4px); }
-.footer__bottom { display:flex; align-items:center; justify-content:space-between; padding:24px 0; border-top:1px solid var(--w10); font-size:0.82rem; color:var(--w50); }
+.footer__bottom { display:flex; align-items:center; justify-content:center; padding:24px 0; border-top:1px solid var(--w10); font-size:0.82rem; color:var(--w50); }
 .footer__legal { display:flex; gap:24px; }
 .footer__legal a { color:var(--w50); transition:color var(--fast); }
 .footer__legal a:hover { color:var(--turq); }
